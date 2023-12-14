@@ -6,7 +6,7 @@
             <form-text-input :is-first-element="true" :input-label="'E-mail'" :place-holder="'made.with@love.me'" v-model="credentials.login"/>
             <form-text-input :input-label="'Password'" :place-holder="'*********'" :type="'password'" v-model="credentials.password"/>
             <div class="w-full mt-4">
-                <element-button :button-text="'Log in'" :size="'regular'" :is-block-level="true" :has-hint="true" :input-helper-text="'Just click here to enter the dashboard, there is no login system'" v-on:click="$router.push('/admin/dashboard')" />
+                <element-button :button-text="'Log in'" :size="'regular'" :is-block-level="true" :has-hint="true" :input-helper-text="'Just click here to enter the dashboard, there is no login system'" v-on:click="$router.push('/')" />
             </div>
             <div class="w-full mt-3 text-[10px] text-center text-slate-400 dark:text-zinc-200">
                (Just click "Log in" without credentials to access the dashboard, as there is no auth system implemented)

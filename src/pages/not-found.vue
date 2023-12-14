@@ -5,7 +5,7 @@
       <element-svg :class="'w-12 h-12 mt-8 text-purple-200'" :view-box="'0 0 20 20'" :fill="'currentColor'" :pic="'forbidden'" />
       <content-module-title :module-title="'404'" />
       <p class="text-gray-700 dark:text-gray-300">
-        Page not found. Check the address or <NuxtLink class="text-purple-600 hover:underline dark:text-purple-300" to="/admin/dashboard">go back</NuxtLink>.
+        Page not found. Check the address or <NuxtLink class="text-purple-600 hover:underline dark:text-purple-300" to="/">go back</NuxtLink>.
       </p>
     </div>
   </main>

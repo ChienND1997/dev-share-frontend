@@ -92,7 +92,7 @@ const svgDictionnary =  {
             clipRule: "evenodd",
             fillRule: "evenodd",
         },
-        dashboard: {
+        home: {
             paths: [
                 "M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6",
             ],
@@ -184,8 +184,7 @@ const svgDictionnary =  {
             paths: ["M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"],
             clipRule: "evenodd",
             fillRule: "evenodd",
-        }
-
+        },
 }
 
 export default svgDictionnary

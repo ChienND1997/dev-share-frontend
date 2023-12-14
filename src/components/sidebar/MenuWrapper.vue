@@ -14,6 +14,6 @@
             <sidebar-dashboard-menu />
             <sidebar-pages-menu />
         </ul>
-        <sidebar-create-account />
+        <!-- <sidebar-create-account /> -->
     </div>
 </template>

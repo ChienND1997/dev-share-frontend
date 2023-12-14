@@ -1,6 +1,6 @@
 <template>
     <span v-for="element in menuElements" :key="element.menu">
-        <NuxtLink :to="element.menu">
+        <NuxtLink :to="element.path">
             <li
                 class="relative px-6 py-3 hover:bg-[rgba( 59, 73, 223 , 0.1))]"
                 @click="closeMobileSideMenu(), toggleSelectedElement(element)"
@@ -14,13 +14,7 @@
                     class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200 hover:underline"
                     :class="{ 'text-gray-800 dark:text-gray-100': element.isActive }"
                 >
-                    <element-svg
-                        aria-hidden="true" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor"
-                        :class="'w-5 h-5'"
-                        :view-box="'0 0 24 24'"
-                        :fill="'none'"
-                        :pic="element.menu"
-                    />
+                    <Icon :name="element.icon" size="1.5rem"/>
                     <span class="ml-4">{{ $utils.stringUtils.toUcFirst(element.menu) }}</span>
                 </span>
             </li>
@@ -50,32 +44,46 @@ export default defineComponent({
         return {
             menuElements: [
                 {
-                    menu: "dashboard",
+                    menu: "home",
+                    icon: "i-cif:vn",
+                    path: "/",
                     isActive: false,
                 },
                 {
-                    menu: "dashboard",
+                    menu: "Reading List",
+                    icon: "i-openmoji-radio",
+                    path: "/",
                     isActive: false,
                 },
                 {
-                    menu: "dashboard",
+                    menu: "Postcasts",
+                    icon: "i-twemoji-studio-microphone",
+                    path: "/",
                     isActive: false,
                 },
                 {
-                    menu: "dashboard",
+                    menu: "Videos",
+                    icon: "i-openmoji-film-projector",
+                    path: "/",
                     isActive: false,
 
                 },
                 {
-                    menu: "dashboard",
+                    menu: "Tags",
+                    icon: "i-noto-label",
+                    path: "/",
                     isActive: false,
                 },
                 {
-                    menu: "dashboard",
+                    menu: "FAQ",
+                    icon: "i-twemoji-light-bulb",
+                    path: "/",
                     isActive: false,
                 },
                 {
-                    menu: "dashboard",
+                    menu: "About",
+                    icon: "i-fluent-emoji-flat-open-book",
+                    path: "/",
                     isActive: false,
 
                 },
