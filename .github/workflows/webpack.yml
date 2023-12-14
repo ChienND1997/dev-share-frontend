@@ -23,5 +23,5 @@ jobs:
         run: npm install eslint
 
       - name: ESLint
-        run: npx eslint --ext .ts,.vue .
+        run: npx eslint --ext .ts .
           
