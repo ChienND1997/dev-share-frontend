@@ -7,7 +7,7 @@ on:
     branches: [ "dev-share-impl" ]
 
 jobs:
-  eslint:
+  code-check:
     runs-on: ubuntu-latest
 
     steps:
@@ -17,11 +17,11 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '18'
+          node-version: '14'
 
-      - name: Install ESLint
-        run: npm install eslint
+      - name: Install dependencies
+        run: npm install
 
-      - name: ESLint
-        run: npx eslint --ext .ts .
+      - name: Run Prettier
+        run: npx prettier --check .
           
