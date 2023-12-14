@@ -1,7 +1,7 @@
 type Avatar = {
-    picture: string
-    fullName: string,
-    title: string,
-  }
+  picture: string;
+  fullName: string;
+  title: string;
+};
 
-export default Avatar
+export default Avatar;

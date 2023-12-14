@@ -1,3 +1,3 @@
-type StatusValues = 'approved' | 'pending' | 'denied' | 'expired';
+type StatusValues = "approved" | "pending" | "denied" | "expired";
 
-export default StatusValues
+export default StatusValues;

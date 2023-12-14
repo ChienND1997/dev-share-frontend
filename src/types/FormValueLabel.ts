@@ -1,6 +1,6 @@
 type FormValueLabel = {
-    value: String,
-    label: String,
-  }
+  value: String;
+  label: String;
+};
 
-export default FormValueLabel
+export default FormValueLabel;

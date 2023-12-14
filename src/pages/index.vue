@@ -1,5 +1,5 @@
 <template>
-    <Title>Home dashboards - {{ $utils.globals.projectName }}</Title>
+  <Title>Home dashboards - {{ $utils.globals.projectName }}</Title>
 </template>
 
 <script lang="ts">

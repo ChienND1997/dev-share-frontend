@@ -1,5 +1,5 @@
 const doughnutConfig = {
-  chartType: 'Doughnut',
+  chartType: "Doughnut",
   chartData: {
     datasets: [
       {
@@ -8,11 +8,11 @@ const doughnutConfig = {
          * These colors come from Tailwind CSS palette
          * https://tailwindcss.com/docs/customizing-colors/#default-color-palette
          */
-        backgroundColor: ['#0694a2', '#1c64f2', '#7e3af2'],
-        label: 'Dataset 1',
+        backgroundColor: ["#0694a2", "#1c64f2", "#7e3af2"],
+        label: "Dataset 1",
       },
     ],
-    labels: ['Shoes', 'Shirts', 'Bags'],
+    labels: ["Shoes", "Shirts", "Bags"],
   },
   chartOptions: {
     responsive: true,
@@ -25,5 +25,5 @@ const doughnutConfig = {
       display: false,
     },
   },
-}
-export default doughnutConfig
+};
+export default doughnutConfig;

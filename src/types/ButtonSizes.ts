@@ -1,3 +1,3 @@
-type ButtonSizes = 'larger' | 'large' | 'regular' | 'small' | 'icon-only';
+type ButtonSizes = "larger" | "large" | "regular" | "small" | "icon-only";
 
-export default ButtonSizes
+export default ButtonSizes;
