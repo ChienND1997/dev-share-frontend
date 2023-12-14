@@ -21,3 +21,6 @@
 - `nuxt dev` to start (you might need to run `npx nuxt dev` if the `nuxt` script is not recognized by your environment)
 - [http://localhost:3000](http://localhost:3000) is the default host and port but be mindfull of what the command says, it might not be the same port depending on which ports are used on your envionrment
 - When you launch the app in your browser, you land on the login page. As there is no auth system implementend, you just need to click on "Log in" to access the dashboard.
+
+## Icon collection
+- Get Icon via https://icones.js.org/
