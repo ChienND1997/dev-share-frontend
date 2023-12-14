@@ -11,4 +11,7 @@ issuehunt: # Replace with a single IssueHunt username
 otechie: # Replace with a single Otechie username
 lfx_crowdfunding: # Replace with a single LFX Crowdfunding project-name e.g., cloud-foundry
 custom: # Replace with up to 4 custom sponsorship URLs e.g., ['link1', 'link2']
-Dev-share
+- name: Check Spelling (JS, Vue, HTML, Markdown, Text)
+# You may pin to the exact commit or the version.
+# uses: UnicornGlobal/spellcheck-github-actions@729ccf160f6e72bd078904cddd5e6244f81ee156
+uses: UnicornGlobal/spellcheck-github-actions@0.4.0
