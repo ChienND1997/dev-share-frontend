@@ -24,3 +24,6 @@
 
 ## Icon collection
 - Get Icon via https://icones.js.org/
+
+## CSS references
+- [Tailwind Component](https://tailwindcomponents.com)
